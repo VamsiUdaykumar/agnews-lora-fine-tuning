@@ -58,7 +58,7 @@ This will:
 - Evaluate on validation set
 - Generate a valid `submission.csv` file
 
-## ✅ Model Configuration
+## Model Configuration
 
 ```json
 {
@@ -84,13 +84,13 @@ This will:
 - **Trainable Parameters**: 888,580  
 - **Device**: Google Colab (T4 GPU)
 
-## ✅ Final Results
+## Final Results
 
 | Metric                   | Value        |
 |---------------------------|--------------|
-| ✅ **Public Kaggle Score** | **0.84675**   |
-| ✅ **Private Kaggle Score**| **0.84150**   |
-| ✅ Train Accuracy (val)    | 92.25%       |
+| **Public Kaggle Score** | **0.84675**   |
+| **Private Kaggle Score**| **0.84150**   |
+| Train Accuracy (val)    | 92.25%       |
 | Epochs                    | 5  
 
 ## **Acknowledgments**  
