@@ -5,7 +5,7 @@ This repository contains a lightweight fine-tuning approach using LoRA (Low-Rank
 ## Structure
 - `notebook/`: Final training and evaluation notebook
 - `output/submission.csv`: File ready for Kaggle submission
-- `output/logs/`: Training logs (currently empty)
+- `output/logs/`: Training logs
 - `output/graphs/`: Visuals like loss curves
 
 ## How to Run
