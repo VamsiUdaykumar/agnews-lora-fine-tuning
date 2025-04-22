@@ -12,8 +12,6 @@ The model is evaluated based on its ability to classify news articles into one o
 
 We utilize **LoRA** to fine-tune only a subset of the model parameters, significantly reducing training complexity and memory footprint, while achieving strong performance.
 
----
-
 ## **Dataset**  
 The **AGNews dataset** contains 120,000 training samples and 7,600 test samples, each with:
 - `title` (optional)
@@ -21,8 +19,6 @@ The **AGNews dataset** contains 120,000 training samples and 7,600 test samples,
 - A category label (`0` to `3`)
 
 The test dataset used for inference (`test_unlabelled.pkl`) was provided by the competition organizers and required accurate ID-label mapping for submission.
-
----
 
 ## **Architecture & Method**  
 The final model uses:
@@ -35,9 +31,7 @@ The final model uses:
 - **Sequence length:** 128 tokens (data-informed)
 - **Scheduler:** Linear with warmup
 
-We trained for **5 epochs** using **FP16 acceleration** on Colab GPUs with 90%/10% train/val split.
-
----
+We trained for **5 epochs** using **FP16 acceleration** on Colab GPUs.
 
 ## Structure
 - `notebook/`: Code base for training and evaluation
