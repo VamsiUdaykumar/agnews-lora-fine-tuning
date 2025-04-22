@@ -1,4 +1,4 @@
-# AGNews LoRA Classifier - DL Spring 2025 Project 2
+# AGNews LoRA Finetuning - DL Spring 2025 Project 2
 
 ## **Overview**  
 This project implements a **parameter-efficient fine-tuning strategy** using **Low-Rank Adaptation (LoRA)** on top of a **RoBERTa-base transformer** for **text classification** on the **AGNews dataset**.  
