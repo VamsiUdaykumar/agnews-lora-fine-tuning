@@ -17,7 +17,7 @@ This repository contains a lightweight fine-tuning approach using LoRA (Low-Rank
 
 2. Open the notebook:
    ```bash
-   jupyter notebook notebook/AGNews_LoRA_TrainValSplit_Eval.ipynb
+   jupyter notebook notebook/DL-Project-2-LORArmstrong.ipynb
    ```
 
 3. Find the file at `output/submission.csv`
