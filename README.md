@@ -82,7 +82,6 @@ This will:
 - **Base Model**: RoBERTa-base  
 - **LoRA Params**: Rank `r=8`, Alpha `16`, Dropout `0.1`  
 - **Trainable Parameters**: 888,580  
-- **Scheduler**: Linear with warmup  
 - **Device**: Google Colab (T4 GPU)
 
 ## ✅ Final Results
