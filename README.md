@@ -54,8 +54,8 @@ We trained for **5 epochs** using **FP16 acceleration** on Colab GPUs.
 This will:
 - Load & preprocess AGNews
 - Train the model with LoRA
-- Plot training loss & accuracy
-- Evaluate on validation set
+- Plot training loss
+- Generate metrics
 - Generate a valid `submission.csv` file
 
 ## Model Configuration
