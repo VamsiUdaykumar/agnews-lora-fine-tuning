@@ -13,7 +13,7 @@ The model is evaluated based on its ability to classify news articles into one o
 We utilize **LoRA** to fine-tune only a subset of the model parameters, significantly reducing training complexity and memory footprint, while achieving strong performance.
 
 ## **Dataset**  
-The **AGNews dataset** contains 120,000 training samples and 7,600 test samples, each with:
+The **AGNews dataset** contains 120,000 samples, each with:
 - `title` (optional)
 - `description` or full `text`
 - A category label (`0` to `3`)
