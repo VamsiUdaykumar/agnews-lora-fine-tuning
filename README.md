@@ -3,7 +3,7 @@
 This repository contains a lightweight fine-tuning approach using LoRA (Low-Rank Adaptation) for text classification on the AGNews dataset.
 
 ## Structure
-- `notebook/`: Final training and evaluation notebook
+- `notebook/`: Code base for training and evaluation
 - `output/submission.csv`: CSV file
 - `output/logs/`: Training logs
 - `output/graphs/`: Visuals like loss curves
