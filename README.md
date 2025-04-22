@@ -92,8 +92,3 @@ This will:
 | **Private Kaggle Score**| **0.84150**   |
 | Train Accuracy          | 92.25%       |
 | Epochs                    | 5  
-
-## **Acknowledgments**  
-This project is built on top of HuggingFace Transformers, PEFT (Parameter-Efficient Fine-Tuning) library, and guided by the Spring 2025 Deep Learning course.
-
-If reused, please cite accordingly.
