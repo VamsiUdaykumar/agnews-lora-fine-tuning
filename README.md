@@ -22,7 +22,7 @@ The test dataset used for inference (`test_unlabelled.pkl`) was provided by the 
 
 ## **Architecture & Method**  
 The final model uses:
-- **Backbone:** `roberta-base` from HuggingFace
+- **Backbone:** `roberta-base` from RoBERTa
 - **LoRA Adapter Configuration:**
   - Rank `r=8`, Alpha `16`
   - Target Modules: `query`, `value`
