@@ -51,4 +51,50 @@ We trained for **5 epochs** using **FP16 acceleration** on Colab GPUs.
    jupyter notebook notebook/DL-Project-2-LORArmstrong.ipynb
    ```
 
-3. Find the file at `output/submission.csv`
+This will:
+- Load & preprocess AGNews
+- Train the model with LoRA
+- Plot training loss & accuracy
+- Evaluate on validation set
+- Generate a valid `submission.csv` file
+
+## ✅ Model Configuration
+
+```json
+{
+  "model": "roberta-base",
+  "lora": {
+    "r": 8,
+    "alpha": 16,
+    "dropout": 0.1,
+    "target_modules": ["query", "value"]
+  },
+  "training": {
+    "epochs": 5,
+    "batch_size": 64,
+    "learning_rate": 2e-5,
+    "warmup_ratio": 0.1,
+    "seed": 42,
+  }
+}
+```
+
+- **Base Model**: RoBERTa-base  
+- **LoRA Params**: Rank `r=8`, Alpha `16`, Dropout `0.1`  
+- **Trainable Parameters**: 888,580  
+- **Scheduler**: Linear with warmup  
+- **Device**: Google Colab (T4 GPU)
+
+## ✅ Final Results
+
+| Metric                   | Value        |
+|---------------------------|--------------|
+| ✅ **Public Kaggle Score** | **0.84675**   |
+| ✅ **Private Kaggle Score**| **0.84150**   |
+| ✅ Train Accuracy (val)    | 92.25%       |
+| Epochs                    | 5  
+
+## **Acknowledgments**  
+This project is built on top of HuggingFace Transformers, PEFT (Parameter-Efficient Fine-Tuning) library, and guided by the Spring 2025 Deep Learning course.
+
+If reused, please cite accordingly.
