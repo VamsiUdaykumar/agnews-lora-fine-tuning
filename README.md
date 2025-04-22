@@ -90,7 +90,7 @@ This will:
 |---------------------------|--------------|
 | **Public Kaggle Score** | **0.84675**   |
 | **Private Kaggle Score**| **0.84150**   |
-| Train Accuracy (val)    | 92.25%       |
+| Train Accuracy          | 92.25%       |
 | Epochs                    | 5  
 
 ## **Acknowledgments**  
